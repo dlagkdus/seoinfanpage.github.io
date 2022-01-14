@@ -26,7 +26,7 @@ nav {
     border-top: 3px solid #888787;
     border-bottom: 3px solid #888787;
     margin: 5px;
-    background-color: rgb(250, 209, 246);
+    background-color:white;
 
 }
 
@@ -45,19 +45,19 @@ footer {
 }
 #loginButton{
     margin-left: 85%;
-    background-color: rgb(250, 209, 246);
+    background-color: white;
     color: gray;
     border: 0;
 }
 
 #signupButton{
-    background-color: rgb(250, 209, 246);
+    background-color: white;
     border: 0;
     color: gray;
 }
 
 #info_nav{
-    background-color: rgb(250, 209, 246);
+    background-color: white;
     border: 0;
     color: black;
     font-family: '국립박물관문화재단클래식B';
@@ -65,7 +65,7 @@ footer {
 
 
 #album_nav{
-    background: rgb(250, 209, 246);
+    background: white;
     border: 0;
     color: black;
     font-family: '국립박물관문화재단클래식B';
