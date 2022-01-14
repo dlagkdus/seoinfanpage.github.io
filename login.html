@@ -1,116 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>login</title>
 
-    <script>
-      window.onload = function (){
-        let id_input=document.querySelector("#id_input_box");
-        let pw_input=document.querySelector("#pw_input_box");
-        let button=document.querySelector("#login_button");
-        
-        button.addEventListener('click',login);
-    
-        function login(){
-          let id_value=id_input.value
-          let pw_value=pw_input.value
-          if (id_value && pw_value){
-            location.href='index.html'
-          }
-          else if (id_value && !pw_value){
-            alert("비밀번호를 입력하세요.");
-          }
-          else if (!id_value && pw_value){
-            alert("아이디를 입력하세요.");
-          }
-          else{
-            alret("아이디와 비밀번호를 입력하세요.");
-          }
-        }
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>login</title>
+</head>
+<script>
+  window.onload = function () {
+    let id_input = document.querySelector("#id_input_box");
+    let pw_input = document.querySelector("#pw_input_box");
+    let button = document.querySelector("#login_button");
+
+    button.addEventListener('click', login);
+
+    function login() {
+      let id_value = id_input.value
+      let pw_value = pw_input.value
+      if (id_value && pw_value) {
+        location.href = 'mainpage.html'
       }
-    </script>
+      else if (id_value && !pw_value) {
+        alert("비밀번호를 입력하세요.");
+      }
+      else if (!id_value && pw_value) {
+        alert("아이디를 입력하세요.");
+      }
+      else {
+        alret("아이디와 비밀번호를 입력하세요.");
+      }
+    }
+  }
+</script>
 </head>
 
 <body>
 
-    <style>
+  <style>
     @font-face {
       font-family: 'SANGJUHaerye';
       src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2112@1.0/SANGJUHaerye.woff') format('woff');
       font-weight: normal;
       font-style: normal;
     }
-    @font-face {
-            font-family: 'twaysky';
-            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_tway@1.0/twaysky.woff') format('woff');
-            font-weight: normal;
-            font-style: normal;
-        }
 
-        .login_box {
-          width: 300px;
-          height: 400px;
-          margin-top: 50px;
-          margin-left: 38%;
-          text-align: center;
-          border: 2px solid rgb(0, 0, 0);
-        }
-        #login_header {
-          margin-top: 64px;
-          margin-bottom: 46px;
-          font-family: 'twaysky';
-        }
-        #id_input_box, #pw_input_box {
-          margin-bottom: 14px;
-          width: 180px;
-          height: 26px;
-          border: 0;
-          border-bottom: 1px solid lightgray;
-        }
-        #login_button {
-          margin-top: 40px;
-          border: 0;
-          height: 24px;
-          width: 120px;
-          background-color: rgb(255, 174, 201);
-          color: white;
-          font-family: 'twaysky';
-        }
-        #signup_button {
-          margin-top: 8px;
-          border: 0;
-          height: 24px;
-          width: 120px;
-          background-color: rgb(255, 174, 201);
-          color: white;
-          font-family: 'twaysky';
-        }
-        #login_button:hover{
-          background-color: rgb(255, 174, 201);
-          color: #888787;
-          transition: all 0.7s;
-        }
-        #signup_button:hover{
-          background-color: rgb(255, 174, 201);
-          color: #888787;
-          transition: all 0.7s;
-        }
-      </style>
-    </head>
-    <body>
+    @font-face {
+      font-family: 'twaysky';
+      src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_tway@1.0/twaysky.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    .login_box {
+      width: 300px;
+      height: 400px;
+      margin-top: 50px;
+      margin-left: 38%;
+      text-align: center;
+      border: 2px solid rgb(0, 0, 0);
+    }
+
+    #login_header {
+      margin-top: 64px;
+      margin-bottom: 46px;
+      font-family: 'twaysky';
+    }
+
+    #id_input_box,
+    #pw_input_box {
+      margin-bottom: 14px;
+      width: 180px;
+      height: 26px;
+      border: 0;
+      border-bottom: 1px solid lightgray;
+    }
+
+    #login_button {
+      margin-top: 40px;
+      border: 0;
+      height: 24px;
+      width: 120px;
+      background-color: rgb(255, 174, 201);
+      color: white;
+      font-family: 'twaysky';
+    }
+
+    #signup_button {
+      margin-top: 8px;
+      border: 0;
+      height: 24px;
+      width: 120px;
+      background-color: rgb(255, 174, 201);
+      color: white;
+      font-family: 'twaysky';
+    }
+
+    #login_button:hover {
+      background-color: rgb(255, 174, 201);
+      color: #888787;
+      transition: all 0.7s;
+    }
+
+    #signup_button:hover {
+      background-color: rgb(255, 174, 201);
+      color: #888787;
+      transition: all 0.7s;
+    }
+  </style>
+  </head>
+
+  <body>
     <div class="login_box">
       <h1 id="login_header">로그인</h1>
       <input id="id_input_box" type="text" placeholder="ID를 입력하세요">
       <input id="pw_input_box" type="password" placeholder="PW를 입력하세요"><br>
-      <button id="login_button" >로그인</button><br>
+      <button id="login_button">로그인</button><br>
       <button id="signup_button" onclick="location.href='signupPage.html'">회원가입</button>
-      
-    </div>
-        
 
-    
-</body>
+    </div>
+
+
+
+  </body>
+
 </html>
