@@ -20,7 +20,7 @@ header{
     width: 100%;
     margin-top: 0;
     height: 800px; /* 이미지에 맞게 세로길이를 더 크게 늘려주었어요! */
-    background-image: url('남한동.png'); /* 배경을 이미지로 지정해주는 부분입니다!
+    background-image: url('남색배경.png'); /* 배경을 이미지로 지정해주는 부분입니다!
         작은따옴표 안에 원하는 사진을 넣으면 됩니다 */
     text-align: left;
     margin-bottom: 5px;
