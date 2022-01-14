@@ -79,6 +79,9 @@ footer {
 
 #info_nav{
     background: #181B59;
+    width: 120px;
+    height: 24px;
+    font-size: 16px;
     color: white;
     border: 0;
     font-family: '국립박물관문화재단클래식B';
@@ -88,6 +91,9 @@ footer {
 
 #album_nav{
     background: #181B59;
+    width: 120px;
+    height: 24px;
+    font-size: 16px;
     color: white;
     border: 0;
     font-family: '국립박물관문화재단클래식B';
