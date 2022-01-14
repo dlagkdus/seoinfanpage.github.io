@@ -51,6 +51,7 @@ footer {
     color: white; /* 글씨 색깔을 흰색으로 바꿔줍니다 */
     text-shadow: 2px 2px 15px gray;
     animation: fadein 3s;
+    margin-left: 10px;
 }
 @keyframes fadein {
     from {
