@@ -1,0 +1,72 @@
+
+@font-face {
+    font-family: 'twaysky';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_tway@1.0/twaysky.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: '국립박물관문화재단클래식B';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/국립박물관문화재단클래식B.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+header{
+    margin: 5px;
+    font-family: 'twaysky';
+}
+
+nav {
+    border-style: solid;
+    border-width: 3px;
+    border: 0;
+    border-top: 3px solid #888787;
+    border-bottom: 3px solid #888787;
+    margin: 5px;
+    background-color: rgb(250, 209, 246);
+
+}
+
+section {
+    border: 0;
+    margin: 5px;
+    text-align: center;
+    
+    
+}
+
+footer {
+    border:3px solid black;
+    text-align: center;
+    font-family: 'twaysky';
+}
+#loginButton{
+    margin-left: 85%;
+    background-color: rgb(250, 209, 246);
+    color: gray;
+    border: 0;
+}
+
+#signupButton{
+    background-color: rgb(250, 209, 246);
+    border: 0;
+    color: gray;
+}
+
+#info_nav{
+    background-color: rgb(250, 209, 246);
+    border: 0;
+    color: black;
+    font-family: '국립박물관문화재단클래식B';
+}
+
+
+#album_nav{
+    background: rgb(250, 209, 246);
+    border: 0;
+    color: black;
+    font-family: '국립박물관문화재단클래식B';
+}

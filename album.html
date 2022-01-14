@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>seoin's album</title>
+    <link rel="stylesheet" href="서인사진.css">
+    <script src="서인사진.js"></script>
+</head>
+
+<style>
+    @font-face {
+            font-family: 'twaysky';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_tway@1.0/twaysky.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+    @font-face {
+        font-family: '국립박물관문화재단클래식B';
+        src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/국립박물관문화재단클래식B.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    }
+    
+
+    
+    #mainpage_button{
+            width: 250px;
+            height: 100px;
+            margin: 5px;
+            font-size: xx-large;
+            background-color: white;
+            font-family: 'twaysky';
+            border: 0;
+
+        }
+    #album{
+        font-family: '국립박물관문화재단클래식B';
+        background-color: white;
+        margin-top: 50px;
+        border: 0;
+    }
+    #slideShow{
+        text-align: center;
+    }
+    
+    
+        
+    
+</style>
+<body>
+    <header>
+        <button id="mainpage_button" onclick="location.href='mainpage.html'">SEOIN's PAGE</button>
+        <button id="album">서인이 사진들</button><hr>
+    </header>
+    <div id="slideShow">
+        <ul class="slides">
+            <!-- 슬라이드에 사용할 이미지들의 class를 slideImage로 지정하여 따로 관리할 것입니다! -->
+            <li><img class="slideImage" src="정서인하트.jpg"></li>
+            <li><img class="slideImage" src="정서인거울.jpg"></li>
+            <li><img class="slideImage" src="정서인이쁜척.jpg"></li>
+            <li><img class="slideImage" src="정서인엽사.jpg"></li>
+            <li><img class="slideImage" src="정서인기도.jpg"></li>
+            <li><img class="slideImage" src="정서인흑백.jpg"></li>
+        </ul>
+        <p class="controller">
+            <span class="prev">&lang;</span> <!-- &lang은 '왼쪽 화살표'입니다! -->
+            <span class="next">&rang;</span> <!-- &rang은 '오른쪽 화살표'입니다! -->
+        </p>
+    </div>
+    
+    
+    
+</body>
+</html>
